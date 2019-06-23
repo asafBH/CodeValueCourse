@@ -1,0 +1,76 @@
+body{
+    padding: 10px;
+    background-color: #ffebcd;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.main-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 45%;
+}
+
+ 
+h1, h2, #header {
+    font-size: 3em;
+    font-style: oblique;
+    font-weight: bold;
+    
+}
+.tbl{
+    border: 1px solid black;
+ } 
+
+tr:nth-child(odd){
+    background-color: #bc0029;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    flex-direction:row;
+}
+address > a{ 
+    font-style: italic;
+    text-decoration: none;
+  } 
+
+a:hover{
+    text-decoration: underline;
+}
+#logo{
+    width: 10%;
+}
+nav{
+    display: block;
+    margin-top: 4%;
+}
+.buymebutton{
+    position: fixed;
+}
+.buyme1{
+    top:0;
+    left: 0;
+}
+.buyme2{
+    top: 0;
+    right: 0;
+}
+.buyme3{
+    bottom: 0;
+    right: 0;
+}
+.buyme4{
+    bottom: 0;
+    left: 0;
+}

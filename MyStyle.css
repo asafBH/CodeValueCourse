@@ -1,0 +1,47 @@
+body{
+    padding: 10px;
+    background-color: #ffebcd;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+.main-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    width: 45%;
+}
+
+ 
+h1, h2, #header {
+    font-size: 3em;
+    font-style: oblique;
+    font-weight: bold;
+    
+} 
+
+.tbl{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: #bc0029;
+    
+} 
+ul{
+    list-style-type: square;
+}
+address > a{ 
+    font-style: italic;
+    text-decoration: none;
+  } 
+
+a:hover{
+    text-decoration: underline;
+}
+
